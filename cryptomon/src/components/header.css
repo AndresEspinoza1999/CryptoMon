@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header > div {
+    margin: 10px;
+}
+.searchBar{
+    background-color: #1c1c1c;
+    height: 50px ;
+    flex: 1;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+}
+.searchIconContainer{
+    margin: 10px;
+}
+
+.inputbar{
+    background-color: transparent;
+    border: unset;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    font-size: 12px;
+
+}
+.pokelogo{
+    width: 184px;
+    height: 152px;
+}
