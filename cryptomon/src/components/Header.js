@@ -2,6 +2,10 @@ import React from 'react'
 import "./header.css"
 import logo from "../components/assests/header/PngItem_4839646.png"
 import SearchIcon from "../components/assests/header/search.png"
+import  themeSwitchIcon from "../components/assests/header/theme-switch.png"
+
+
+
 const Header = () => {
     return (
         <div className='header'>
@@ -15,6 +19,19 @@ const Header = () => {
                  <div className="searchInput">
                      <input type="text" name="SeachBar" className="inputbar" placeholder='Collelction, item, userS'/>
                  </div>
+             </div>
+             <div className="headerItems">
+                  <p> Drops </p>
+                  <p>MarketPlace</p>
+                  <p>Create</p>
+             </div>
+             <div className="headerActions">
+                 <div className="themeToggleContainer">
+                <img src={themeSwitchIcon} alt="" />
+                 </div>
+             </div>
+             <div className="loginButton">
+                GET IN
              </div>
         </div>
         
